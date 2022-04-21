@@ -1,0 +1,42 @@
+.card{
+    background-color: yellow;
+    width: 300px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 10px #888888;
+    height: 120px;
+    margin-top:10px;
+    position: static;
+}
+
+.checkbox{
+    position: relative;
+    left:5px;
+    top:5px;
+    height: 20px;
+    width: 20px;
+}
+
+.delete{
+    position: relative;
+    top: 5px;
+    right: 5px;
+    border-radius: 2px;
+}
+
+.text{
+    justify-content: left;
+}
+.task{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+}
+
+.tag{
+    border-radius: 5px;
+    border:black solid 1px;
+    background-color: white;
+    margin: 5px;
+}
